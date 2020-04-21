@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Nobroker Test Automation suite]">
+  <listeners>
+    <listener class-name="com.nobrokers.extentReportList.NobrokerExtentreport"/>
+  </listeners>
+  <test thread-count="5" name="Nobroker testcase(failed)">
+    <classes>
+      <class name="com.nobrokers.app.Homescreen">
+        <methods>
+          <include name="lunch"/>
+          <include name="homescreenTofourthProperty"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.nobrokers.app.Homescreen -->
+    </classes>
+  </test> <!-- Nobroker testcase(failed) -->
+</suite> <!-- Failed suite [Nobroker Test Automation suite] -->
